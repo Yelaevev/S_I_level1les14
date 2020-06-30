@@ -32,26 +32,26 @@ namespace Level1Space
             }
             return sum;
         }
-        //static void Main(string[] args)
-        //{
-        //    int[] price = { 400,350};
-        //    int sum = MaximumDiscount( price.Length,  price);
-        //    foreach (int t in price) Console.Write(t+ " ");
-        //    Console.WriteLine();
-        //    Console.WriteLine(sum);
-        //    //Array.Sort(price);
-        //    //foreach (int t in price) Console.Write(t+ " ");
-        //    //Array.Reverse(price);
-        //    //Console.WriteLine();
-        //    //foreach (int t in price) Console.Write(t+ " ");
-        //    //Console.WriteLine();
-        //    //for (int i = 2; i < price.Length; i = i + 3)
-        //    //{
-        //    //    sum = sum + price[i];
-        //    //}
-        //    //Console.WriteLine(sum);
+        static void Main(string[] args)
+        {
+            int[] price = { 400, 350 };
+            int sum = MaximumDiscount(price.Length, price);
+            foreach (int t in price) Console.Write(t + " ");
+            Console.WriteLine();
+            Console.WriteLine(sum);
+            //Array.Sort(price);
+            //foreach (int t in price) Console.Write(t+ " ");
+            //Array.Reverse(price);
+            //Console.WriteLine();
+            //foreach (int t in price) Console.Write(t+ " ");
+            //Console.WriteLine();
+            //for (int i = 2; i < price.Length; i = i + 3)
+            //{
+            //    sum = sum + price[i];
+            //}
+            //Console.WriteLine(sum);
 
 
-        //}
+        }
     }
 }
